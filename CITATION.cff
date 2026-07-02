@@ -1,0 +1,27 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite both the article and this repository."
+title: "T1D HbA1c GWAS (GENDIR)"
+type: software
+authors:
+  - family-names: "[First author last name]"
+    given-names: "[First author given name]"
+  - family-names: "[Middle author last name]"
+    given-names: "[Middle author given name]"
+  - family-names: "[Your last name]"
+    given-names: "[Your given name]"
+    orcid: "https://orcid.org/[your ORCID if available]"
+repository-code: "https://github.com/cvdd-research/t1d-hba1c-gwas-gendir"
+license: MIT
+preferred-citation:
+  type: article
+  title: "[Paper title]"
+  authors:
+    - family-names: "[First author last name]"
+      given-names: "[First author given name]"
+    - family-names: "[Middle author last name]"
+      given-names: "[Middle author given name]"
+    - family-names: "[Your last name]"
+      given-names: "[Your given name]"
+  journal: "bioRxiv"
+  year: 2026
+  doi: "[DOI to be added upon preprint availability]"
