@@ -13,15 +13,18 @@ This repository contains the analysis code used to:
 
 ## Repository structure
 
+The analysis is organized as a [Quarto](https://quarto.org/) book. Structure may evolve as the project develops; see `_quarto.yml` for the current chapter organization.
+
 ```
-config/     analysis configuration files
-scripts/    analysis scripts, numbered in execution order
-docs/       extended methods documentation
+_quarto.yml     Quarto book configuration
+index.qmd       book landing page
+*.qmd           analysis chapters
+docs/           rendered output (if published) or extended notes
 ```
 
 ## Requirements
 
-See `environment.yml` (or `requirements.txt`) for the full list of dependencies and versions used.
+Analysis relies primarily on **R** (see `renv.lock` or `_environment` for package versions), with **bash** scripts for pipeline orchestration and **PLINK** for genotype data handling and association testing. Additional tools used are documented in the relevant `.qmd` chapters.
 
 ## Data availability
 
