@@ -2,6 +2,8 @@
 
 Code accompanying a longitudinal genome-wide association study of HbA1c in pediatric type 1 diabetes, identifying an association at the *CNTFR* locus in the GENDIR cohort.
 
+**Code will be added prior to journal submission**
+
 ## Overview
 
 This repository will contain the analysis code used to:
