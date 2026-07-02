@@ -4,12 +4,12 @@ Code accompanying a longitudinal genome-wide association study of HbA1c in pedia
 
 ## Overview
 
-This repository contains the analysis code used to:
+This repository will contain the analysis code used to:
 - Perform quality control on genotype data
 - Prepare longitudinal HbA1c phenotype data
 - Run longitudinal mixed-effects models of HbA1c trajectories
 - Conduct genome-wide association analysis
-- Fine-map and characterize the association at the *CNTFR* locus
+- Characterize the association at the *CNTFR* locus
 
 ## Repository structure
 
@@ -28,7 +28,7 @@ Analysis relies primarily on **R** (see `renv.lock` or `_environment` for packag
 
 ## Data availability
 
-Genotype and phenotype data from the GENDIR cohort are not included in this repository due to privacy and consent restrictions. Access requests should be directed to [contact / data access committee — to complete].
+Genotype and phenotype data from the GENDIR cohort are not included in this repository due to privacy and consent restrictions. Access requests should be directed to Claire Vandiedonck.
 
 ## Citation
 
